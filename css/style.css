@@ -1,0 +1,49 @@
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-size: 1.3em;
+}
+h4{
+    color: white;
+    font-size: 2em;
+}
+
+.imgfilme{
+    border-radius: 5px;
+    background-color: black;
+}
+
+.card-body{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.274); 
+    padding: 0px; 
+    margin: 0px;
+    align-items: center;
+}
+
+.card-body:hover{
+    margin: -10px;
+}
+
+.play{
+    display: none;
+}
+
+.card-body:hover .play{
+    display: block;
+}
+
+.play{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.card text-center{
+    width: 12rem;  
+}
+
